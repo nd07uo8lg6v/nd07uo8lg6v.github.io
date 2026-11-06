@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黄果短剧完整版-黄果短剧全集在线看_短剧完整版资源</title>
+<meta name="description" content="黄果短剧完整版主题首页：汇集黄果短剧完整版剧集清单与观看入口，按题材与更新节奏整理短剧资源，帮助观众快速找到想看的黄果短剧完整版内容。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23f08a24'/%3E%3Cpath d='M32 12c9 0 16 6 16 15 0 12-11 20-16 25-5-5-16-13-16-25 0-9 7-15 16-15z' fill='%23fff3df'/%3E%3Ccircle cx='32' cy='27' r='6' fill='%23f08a24'/%3E%3C/svg%3E">
+<style>
+:root{
+  --orange:#ef8a22;
+  --orange-deep:#d96f0e;
+  --cream:#fff8ee;
+  --ink:#2b2118;
+  --ink-soft:#5d5044;
+  --line:#f0e2cd;
+  --card:#ffffff;
+  --shadow:0 10px 30px rgba(126,88,40,.10);
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--ink);
+  background:var(--cream);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img,svg{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+.wrap{width:min(1120px,92vw);margin:0 auto;}
+
+/* Header */
+header{
+  position:sticky;top:0;z-index:50;
+  background:rgba(255,248,238,.94);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+.nav{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:16px;padding:12px 0;flex-wrap:wrap;
+}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;letter-spacing:.5px;}
+.logo .mark{
+  width:36px;height:36px;border-radius:11px;
+  background:linear-gradient(140deg,#ffb151,#ef8a22);
+  display:grid;place-items:center;flex:0 0 auto;
+  box-shadow:0 4px 12px rgba(239,138,34,.35);
+}
+.logo .mark svg{width:20px;height:20px;}
+.nav ul{display:flex;gap:6px;list-style:none;margin:0;padding:0;flex-wrap:wrap;}
+.nav ul a{
+  display:block;padding:7px 13px;border-radius:999px;
+  font-size:14px;color:var(--ink-soft);
+  transition:background .2s,color .2s;
+}
+.nav ul a:hover{background:#ffe9cc;color:var(--orange-deep);}
+.nav .cta{
+  background:var(--orange);color:#fff;font-weight:700;
+  padding:9px 18px;border-radius:999px;font-size:14px;
+  box-shadow:0 6px 16px rgba(239,138,34,.35);
+}
+.nav .cta:hover{background:var(--orange-deep);}
+
+/* Hero */
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 380px at 85% -10%,#ffe2b8 0%,rgba(255,226,184,0) 70%),
+    radial-gradient(600px 300px at 0% 100%,#ffeacd 0%,rgba(255,234,205,0) 70%);
+  padding:56px 0 48px;
+}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;}
+.badge{
+  display:inline-flex;align-items:center;gap:7px;
+  background:#fff;border:1px solid var(--line);
+  color:var(--orange-deep);font-size:13px;font-weight:600;
+  padding:5px 13px;border-radius:999px;margin-bottom:16px;
+}
+.badge i{width:7px;height:7px;border-radius:50%;background:var(--orange);display:inline-block;}
+h1{
+  font-size:clamp(26px,4.4vw,42px);
+  line-height:1.25;margin:0 0 16px;letter-spacing:-.5px;
+}
+h1 span{color:var(--orange-deep);}
+.hero p{color:var(--ink-soft);font-size:16px;margin:0 0 26px;max-width:44ch;}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:13px 26px;border-radius:12px;font-weight:700;font-size:15px;
+  transition:transform .15s,box-shadow .2s,background .2s;
+}
+.btn-primary{background:var(--orange);color:#fff;box-shadow:0 10px 24px rgba(239,138,34,.34);}
+.btn-primary:hover{background:var(--orange-deep);transform:translateY(-1px);}
+.btn-ghost{background:#fff;color:var(--ink);border:1px solid var(--line);}
+.btn-ghost:hover{border-color:var(--orange);color:var(--orange-deep);}
+.hero-note{font-size:13px;color:#8b7a66;margin-top:14px;}
+
+.hero-art{
+  background:#fff;border:1px solid var(--line);border-radius:22px;
+  box-shadow:var(--shadow);padding:18px;
+}
+.hero-art .screen{
+  border-radius:14px;overflow:hidden;background:#2b2118;
+  aspect-ratio:16/10;display:grid;place-items:center;position:relative;
+}
+.hero-art .screen svg{width:100%;height:100%;}
+.hero-art .meta{display:flex;justify-content:space-between;gap:10px;padding:12px 4px 2px;font-size:13px;color:var(--ink-soft);}
+.hero-art .meta b{color:var(--ink);}
+
+/* Section base */
+section{padding:56px 0;}
+.sec-head{margin-bottom:28px;}
+.sec-head .kicker{
+  font-size:13px;font-weight:700;letter-spacing:2px;
+  color:var(--orange-deep);text-transform:uppercase;
+}
+.sec-head h2{font-size:clamp(21px,3vw,28px);margin:6px 0 8px;line-height:1.35;}
+.sec-head p{margin:0;color:var(--ink-soft);font-size:15px;max-width:60ch;}
+
+/* Filters */
+.toolbar{
+  display:flex;gap:10px;flex-wrap:wrap;align-items:center;
+  margin-bottom:24px;
+}
+.chip{
+  border:1px solid var(--line);background:#fff;color:var(--ink-soft);
+  padding:8px 16px;border-radius:999px;font-size:14px;cursor:pointer;
+  font-family:inherit;transition:.2s;
+}
+.chip:hover{border-color:#f6c48b;}
+.chip.active{background:var(--ink);color:#fff;border-color:var(--ink);}
+.search{
+  margin-left:auto;display:flex;align-items:center;gap:8px;
+  background:#fff;border:1px solid var(--line);border-radius:999px;
+  padding:6px 8px 6px 16px;
+}
+.search input{
+  border:0;outline:0;background:transparent;font-family:inherit;
+  font-size:14px;width:190px;color:var(--ink);
+}
+.search button{
+  border:0;background:var(--orange);color:#fff;border-radius:999px;
+  padding:7px 16px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;
+}
+.search button:hover{background:var(--orange-deep);}
+
+/* Cards */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:16px;
+  overflow:hidden;display:flex;flex-direction:column;
+  transition:transform .18s,box-shadow .22s;
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow);}
+.card .thumb{aspect-ratio:16/9;background:#fdf1de;display:grid;place-items:center;}
+.card .thumb svg{width:100%;height:100%;}
+.card .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:8px;flex:1;}
+.card h3{font-size:16px;margin:0;line-height:1.45;}
+.card p{font-size:13.5px;color:var(--ink-soft);margin:0;line-height:1.7;}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto;padding-top:8px;}
+.tag{
+  font-size:12px;background:#fdf1de;color:#a86a15;
+  padding:3px 9px;border-radius:6px;
+}
+.empty{
+  grid-column:1/-1;text-align:center;color:var(--ink-soft);
+  padding:48px 0;font-size:15px;
+}
+
+/* List section */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+.panel{
+  background:#fff;border:1px solid var(--line);border-radius:16px;
+  padding:26px 28px;
+}
+.panel h3{font-size:18px;margin:0 0 14px;}
+.panel ul{margin:0;padding:0;list-style:none;}
+.panel li{
+  padding:12px 0;border-bottom:1px dashed var(--line);
+  font-size:14.5px;display:flex;gap:12px;align-items:flex-start;
+}
+.panel li:last-child{border-bottom:0;padding-bottom:0;}
+.panel li .num{
+  flex:0 0 auto;width:22px;height:22px;border-radius:6px;
+  background:#fdf1de;color:var(--orange-deep);font-size:12px;font-weight:700;
+  display:grid;place-items:center;margin-top:2px;
+}
+.panel li b{display:block;color:var(--ink);font-weight:700;margin-bottom:2px;}
+.panel li span{color:var(--ink-soft);font-size:13.5px;line-height:1.65;}
+
+/* About */
+.about{
+  background:linear-gradient(180deg,#fff 0%,#fffaf2 100%);
+  border:1px solid var(--line);border-radius:20px;
+  padding:34px 34px 30px;
+}
+.about h2{font-size:clamp(20px,2.6vw,26px);margin:0 0 14px;}
+.about p{color:var(--ink-soft);font-size:15px;margin:0 0 14px;}
+.about p:last-child{margin-bottom:0;}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px;}
+.fact{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px;}
+.fact b{display:block;font-size:22px;color:var(--orange-deep);line-height:1.2;}
+.fact span{font-size:13px;color:var(--ink-soft);}
+
+/* Footer */
+footer{
+  border-top:1px solid var(--line);background:#fff;
+  padding:36px 0 30px;margin-top:20px;
+}
+.foot-grid{display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap;}
+.foot-brand{max-width:340px;}
+.foot-brand .logo{margin-bottom:12px;}
+.foot-brand p{font-size:13.5px;color:var(--ink-soft);margin:0;line-height:1.8;}
+.foot-links{display:flex;gap:56px;flex-wrap:wrap;}
+.foot-links h4{font-size:14px;margin:0 0 10px;}
+.foot-links ul{list-style:none;margin:0;padding:0;}
+.foot-links li{margin-bottom:7px;}
+.foot-links a{font-size:13.5px;color:var(--ink-soft);}
+.foot-links a:hover{color:var(--orange-deep);}
+.copy{
+  margin-top:28px;padding-top:18px;border-top:1px solid var(--line);
+  font-size:12.5px;color:#9b8b76;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;
+}
+
+@media (max-width:920px){
+  .hero-grid{grid-template-columns:1fr;gap:28px;}
+  .hero-art{order:-1;}
+  .grid{grid-template-columns:repeat(2,1fr);}
+  .split{grid-template-columns:1fr;}
+  .facts{grid-template-columns:1fr;}
+}
+@media (max-width:640px){
+  .nav{gap:10px;}
+  .nav ul{order:3;width:100%;justify-content:flex-start;gap:2px;}
+  .nav ul a{padding:6px 10px;font-size:13px;}
+  .hero{padding:34px 0 36px;}
+  .hero p{font-size:15px;}
+  section{padding:40px 0;}
+  .grid{grid-template-columns:1fr;}
+  .search{margin-left:0;width:100%;}
+  .search input{width:100%;flex:1;}
+  .panel{padding:20px 20px;}
+  .about{padding:24px 20px;}
+  .foot-links{gap:32px;}
+}
+</style>
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="logo">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3c3.6 0 6.4 2.4 6.4 6 0 4.8-4.4 8-6.4 10-2-2-6.4-5.2-6.4-10 0-3.6 2.8-6 6.4-6z" fill="#fff3df"/><circle cx="12" cy="9" r="2.4" fill="#ef8a22"/></svg>
+      </span>
+      <span>黄果短剧完整版</span>
+    </div>
+    <ul>
+      <li><a href="#library">剧集清单</a></li>
+      <li><a href="#watch">观看路径</a></li>
+      <li><a href="#picks">题材精选</a></li>
+      <li><a href="#about">关于本站</a></li>
+    </ul>
+    <a class="cta" href="#library">开始找剧</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="badge"><i></i>短剧资源 · 全集清单</span>
+        <h1>黄果短剧完整版</h1>
+        <p>把黄果短剧完整版的剧集按题材、时长与更新节奏整理成清单，一页看清有哪些可看的短剧，再决定从哪一部开始追。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#library">
+            浏览剧集清单
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="#watch">观看路径说明</a>
+        </div>
+        <p class="hero-note">清单按题材归类，支持关键词筛选，无需注册即可查找。</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="screen">
+          <svg viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#3a2a1c"/>
+                <stop offset="1" stop-color="#6b4526"/>
+              </linearGradient>
+              <linearGradient id="fruit" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#ffc25c"/>
+                <stop offset="1" stop-color="#ef8a22"/>
+              </linearGradient>
+            </defs>
+            <rect width="400" height="250" fill="url(#sky)"/>
+            <circle cx="318" cy="52" r="26" fill="#ffe6b8" opacity=".22"/>
+            <circle cx="318" cy="52" r="13" fill="#ffe6b8" opacity=".5"/>
+            <path d="M0 200 Q90 150 180 195 T400 185 V250 H0 Z" fill="#241a12" opacity=".8"/>
+            <g>
+              <circle cx="120" cy="150" r="34" fill="url(#fruit)"/>
+              <path d="M120 116 q6 -18 22 -22" stroke="#9fca6a" stroke-width="5" fill="none" stroke-linecap="round"/>
+              <ellipse cx="150" cy="112" rx="14" ry="7" fill="#8fbf5f" transform="rotate(-24 150 112)"/>
+            </g>
+            <g fill="#fff" opacity=".9">
+              <rect x="212" y="128" width="112" height="10" rx="5"/>
+              <rect x="212" y="150" width="86" height="10" rx="5" opacity=".65"/>
+            </g>
+            <g fill="#ef8a22" opacity=".9">
+              <rect x="212" y="176" width="58" height="26" rx="8"/>
+            </g>
+            <path d="M228 189 l10 -7 v14 z" fill="#2b2118"/>
+          </svg>
+        </div>
+        <div class="meta">
+          <span><b>按题材</b> 归类</span>
+          <span><b>横向</b> 筛选</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Library -->
+  <section id="library">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Library</div>
+        <h2>黄果短剧完整版剧集清单</h2>
+        <p>按条目列出黄果短剧完整版中各短剧的基本信息。每部短剧标注题材与内容方向，便于先判断是否合口味，再进入观看环节。</p>
+      </div>
+
+      <div class="toolbar" role="group" aria-label="题材筛选">
+        <button class="chip active" data-filter="all">全部</button>
+        <button class="chip" data-filter="都市">都市情感</button>
+        <button class="chip" data-filter="悬疑">悬疑推理</button>
+        <button class="chip" data-filter="古装">古装传奇</button>
+        <button class="chip" data-filter="甜宠">甜宠日常</button>
+        <div class="search">
+          <input id="q" type="search" placeholder="搜索剧名或题材" aria-label="搜索剧名或题材">
+          <button id="go" type="button">查找</button>
+        </div>
+      </div>
+
+      <div class="grid" id="cards">
+        <article class="card" data-cat="都市" data-title="晚风便利店">
+          <div class="thumb">
+            <svg viewBox="0 0 320 180"><rect width="320" height="180" fill="#fdf1de"/><rect x="34" y="58" width="120" height="86" rx="6" fill="#f6c48b"/><rect x="52" y="76" width="34" height="26" rx="3" fill="#fff8ee"/><rect x="100" y="76" width="34" height="26" rx="3" fill="#fff8ee"/><circle cx="228" cy="98" r="34" fill="#ef8a22"/><path d="M228 64 q5 -14 18 -17" stroke="#8fbf5f" stroke-width="4" fill="none" stroke-linecap="round"/></svg>
+          </div>
+          <div class="body">
+            <h3>晚风便利店</h3>
+            <p>都市夜班题材，围绕一间便利店里来往的顾客展开，单元式叙事，单集篇幅较短。</p>
+            <div class="tags"><span class="tag">都市情感</span><span class="tag">单元叙事</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="悬疑" data-title="第七码头的信">
+          <div class="thumb">
+            <svg viewBox="0 0 320 180"><rect width="320" height="180" fill="#e9e2d6"/><rect x="0" y="118" width="320" height="62" fill="#c9bda9"/><rect x="126" y="42" width="68" height="80" rx="4" fill="#8a7a64"/><rect x="144" y="62" width="32" height="22" rx="2" fill="#fdf1de"/><path d="M60 118 v-30 h26 v30" fill="#a89579"/><circle cx="252" cy="60" r="18" fill="#ef8a22" opacity=".85"/></svg>
+          </div>
+          <div class="body">
+            <h3>第七码头的信</h3>
+            <p>悬疑推理方向，以一封信作为线索推进，情节密度较高，适合连续观看。</p>
+            <div class="tags"><span class="tag">悬疑推理</span><span class="tag">线索推进</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="古装" data-title="长街灯未眠">
+          <div class="thumb">
+            <svg viewBox="0 0 320 180"><rect width="320" height="180" fill="#2f2418"/><circle cx="258" cy="46" r="20" fill="#ffe6b8" opacity=".65"/><path d="M0 140 h320 v40 H0z" fill="#1e160e"/><g fill="#ef8a22"><circle cx="90" cy="96" r="14"/><circle cx="150" cy="86" r="12"/><circle cx="206" cy="100" r="13"/></g><rect x="86" y="110" width="4" height="30" fill="#8a6a3c"/><rect x="146" y="98" width="4" height="42" fill="#8a6a3c"/><rect x="202" y="113" width="4" height="27" fill="#8a6a3c"/></svg>
+          </div>
+          <div class="body">
+            <h3>长街灯未眠</h3>
+            <p>古装传奇题材，以长街夜市为背景铺陈人物关系，服化道与场景是主要看点。</p>
+            <div class="tags"><span class="tag">古装传奇</span><span class="tag">群像</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="甜宠" data-title="楼下那家甜品店">
+          <div class="thumb">
+            <svg viewBox="0 0 320 180"><rect width="320" height="180" fill="#ffeede"/><rect x="46" y="70" width="90" height="72" rx="8" fill="#f6c48b"/><path d="M46 70 l45 -26 l45 26z" fill="#ef8a22"/><circle cx="228" cy="96" r="30" fill="#fff"/><circle cx="228" cy="96" r="22" fill="#ffd9a8"/><circle cx="228" cy="82" r="6" fill="#ef8a22"/></svg>
+          </div>
+          <div class="body">
+            <h3>楼下那家甜品店</h3>
+            <p>甜宠日常方向，节奏轻快，场景集中，适合碎片时间补看，剧情推进温和。</p>
+            <div class="tags"><span class="tag">甜宠日常</span><span class="tag">轻喜剧</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="都市" data-title="加班的第101天">
+          <div class="thumb">
+            <svg viewBox="0 0 320 180"><rect width="320" height="180" fill="#f3ede4"/><rect x="40" y="40" width="150" height="100" rx="6" fill="#fff"/><rect x="58" y="58" width="72" height="8" rx="4" fill="#ef8a22"/><rect x="58" y="76" width="110" height="8" rx="4" fill="#e3d6c2"/><rect x="58" y="94" width="92" height="8" rx="4" fill="#e3d6c2"/><rect x="214" y="66" width="66" height="74" rx="6" fill="#c9bda9"/><rect x="228" y="80" width="38" height="8" rx="4" fill="#fdf1de"/></svg>
+          </div>
+          <div class="body">
+            <h3>加班的第101天</h3>
+            <p>都市职场观察式短剧，以办公室日常为切面，语言风格偏写实，冲突轻量。</p>
+            <div class="tags"><span class="tag">都市情感</span><span class="tag">职场</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="悬疑" data-title="回声档案">
+          <div class="thumb">
+            <svg viewBox="0 0 320 180"><rect width="320" height="180" fill="#e4e9e2"/><rect x="52" y="34" width="96" height="112" rx="4" fill="#fff"/><g fill="#b9c4b6"><rect x="66" y="52" width="68" height="6" rx="3"/><rect x="66" y="68" width="52" height="6" rx="3"/><rect x="66" y="84" width="60" height="6" rx="3"/></g><circle cx="216" cy="92" r="36" fill="none" stroke="#ef8a22" stroke-width="6"/><circle cx="216" cy="92" r="14" fill="#ef8a22"/></svg>
+          </div>
+          <div class="body">
+            <h3>回声档案</h3>
+            <p>悬疑推理题材，采用档案回溯的方式串联案件，信息量偏大，建议按顺序观看。</p>
+            <div class="tags"><span class="tag">悬疑推理</span><span class="tag">案件回溯</span></div>
+          </div>
+        </article>
+
+        <div class="empty" id="empty" hidden>没有找到匹配的剧集，换个关键词或选择“全部”试试。</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Watch path -->
+  <section id="watch">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">How to watch</div>
+        <h2>黄果短剧完整版怎么找、怎么看</h2>
+        <p>把寻找黄果短剧完整版的过程拆成几步，先定位剧集，再确认观看方式，减少在多个页面之间来回跳转。</p>
+      </div>
+      <div class="split">
+        <div class="panel">
+          <h3>四步找到想看的短剧</h3>
+          <ul>
+            <li><span class="num">1</span><div><b>确定题材方向</b><span>先从都市情感、悬疑推理、古装传奇、甜宠日常四类中选一个方向，缩小范围。</span></div></li>
+            <li><span class="num">2</span><div><b>用关键词筛选</b><span>在上方清单的搜索框输入剧名片段或题材词，列表会即时过滤，保留匹配条目。</span></div></li>
+            <li><span class="num">3</span><div><b>查看条目信息</b><span>每张卡片写明题材与叙事特点，据此判断是否与自己的观看习惯相符。</span></div></li>
+            <li><span class="num">4</span><div><b>进入观看环节</b><span>确认剧集后，通过页面提供的播放入口继续，按集序观看更利于理解剧情。</span></div></li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>观看与使用提示</h3>
+          <ul>
+            <li><span class="num">·</span><div><b>按集序观看</b><span>悬疑类与群像类短剧线索前后勾连，跳集容易丢失关键信息。</span></div></li>
+            <li><span class="num">·</span><div><b>留意单集时长</b><span>短剧单集普遍较短，通勤或休息间隙即可看完一到两集。</span></div></li>
+            <li><span class="num">·</span><div><b>清单会随条目补充</b><span>新增剧集将并入对应题材分组，筛选逻辑保持不变。</span></div></li>
+            <li><span class="num">·</span><div><b>反馈渠道</b><span>若发现条目信息有误，可通过页尾联系方式说明具体剧名与问题。</span></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Picks -->
+  <section id="picks">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Picks</div>
+        <h2>按观看偏好挑黄果短剧完整版</h2>
+        <p>不同观众对节奏与情绪的偏好差异较大，这里按观看场景给出选择思路，而不是统一推荐同一部。</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <div class="body">
+            <h3>想放松：优先甜宠与轻喜剧</h3>
+            <p>甜宠日常类短剧冲突轻、场景集中，情绪走向平稳。适合下班后或睡前观看，不需要连续记忆复杂人物关系。</p>
+            <div class="tags"><span class="tag">碎片时间</span><span class="tag">轻节奏</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="body">
+            <h3>想投入：选悬疑推理</h3>
+            <p>悬疑类短剧依靠线索推进，信息密度高。建议一次连看数集，避免线索中断影响推理体验。</p>
+            <div class="tags"><span class="tag">连贯观看</span><span class="tag">高密度</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="body">
+            <h3>想看画面：古装传奇</h3>
+            <p>古装题材在场景与服化道上投入更多，适合对视觉呈现有要求的观众，剧情节奏相对舒缓。</p>
+            <div class="tags"><span class="tag">视觉优先</span><span class="tag">群像</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="wrap">
+      <div class="about">
+        <h2>关于黄果短剧完整版这个页面</h2>
+        <p>本页是一个围绕黄果短剧完整版建立的剧集索引页，核心任务是把分散的短剧条目整理成可筛选的清单。页面不生产剧集内容，而是提供题材分类、条目说明和观看路径提示，让查找黄果短剧完整版的过程更直接。</p>
+        <p>清单元数据包括剧名、题材归属与叙事特点三项，均按条目实际信息填写。题材分类目前覆盖都市情感、悬疑推理、古装传奇、甜宠日常四类，后续条目会继续并入相应分组。搜索与筛选在前端完成，输入关键词即可即时过滤，不需要跳转。</p>
+        <p>对于希望系统了解黄果短剧完整版的观众，建议先看“观看路径”一节，明确按集序观看与题材选择的差别，再回到清单逐条比对。这样比随机点开一部更省时间，也更容易找到符合自己口味的短剧。</p>
+        <div class="facts">
+          <div class="fact"><b>4</b><span>题材分类维度</span></div>
+          <div class="fact"><b>6</b><span>当前收录条目</span></div>
+          <div class="fact"><b>1</b><span>页面内即筛即看</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo">
+          <span class="mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3c3.6 0 6.4 2.4 6.4 6 0 4.8-4.4 8-6.4 10-2-2-6.4-5.2-6.4-10 0-3.6 2.8-6 6.4-6z" fill="#fff3df"/><circle cx="12" cy="9" r="2.4" fill="#ef8a22"/></svg>
+          </span>
+          <span>黄果短剧完整版</span>
+        </div>
+        <p>黄果短剧完整版剧集索引页，按题材整理条目，提供筛选与观看路径提示，帮助观众更快找到想看的短剧。</p>
+      </div>
+      <div class="foot-links">
+        <div>
+          <h4>页面导航</h4>
+          <ul>
+            <li><a href="#library">剧集清单</a></li>
+            <li><a href="#watch">观看路径</a></li>
+            <li><a href="#picks">题材精选</a></li>
+            <li><a href="#about">关于本站</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>题材分类</h4>
+          <ul>
+            <li><a href="#library">都市情感</a></li>
+            <li><a href="#library">悬疑推理</a></li>
+            <li><a href="#library">古装传奇</a></li>
+            <li><a href="#library">甜宠日常</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copy">
+      <span>© 黄果短剧完整版 · 剧集索引页</span>
+      <span>页面内容为条目整理，剧集版权归各自权利人所有</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var chips = document.querySelectorAll('.chip');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#cards .card'));
+  var input = document.getElementById('q');
+  var go = document.getElementById('go');
+  var empty = document.getElementById('empty');
+  var state = {cat:'all', q:''};
+
+  function apply(){
+    var shown = 0;
+    cards.forEach(function(c){
+      var catOk = state.cat === 'all' || c.getAttribute('data-cat') === state.cat;
+      var text = (c.getAttribute('data-title') || '') + (c.textContent || '');
+      var qOk = !state.q || text.indexOf(state.q) !== -1;
+      var ok = catOk && qOk;
+      c.style.display = ok ? '' : 'none';
+      if(ok) shown++;
+    });
+    empty.hidden = shown > 0;
+  }
+
+  chips.forEach(function(ch){
+    ch.addEventListener('click', function(){
+      chips.forEach(function(x){ x.classList.remove('active'); });
+      ch.classList.add('active');
+      state.cat = ch.getAttribute('data-filter');
+      apply();
+    });
+  });
+
+  function runSearch(){
+    state.q = input.value.trim();
+    apply();
+  }
+  go.addEventListener('click', runSearch);
+  input.addEventListener('input', runSearch);
+})();
+</script>
+</body>
+        </html>
